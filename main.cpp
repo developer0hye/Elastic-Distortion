@@ -78,9 +78,11 @@ int main()
         cv::imshow("dst_not_norm", dst_not_norm);
         cv::imshow("dst_norm", dst_norm);
 
-        //you pushed any key, image is updated.
+
+        //if you push any key, image will be updated.
         cv::waitKey(0);
     }
+
     return 0;
 }
 
