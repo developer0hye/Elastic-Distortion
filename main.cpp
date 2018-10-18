@@ -62,7 +62,6 @@ void ElasticDeformations(cv::Mat& src,
         }
 }
 
-
 int main()
 {
     cv::Mat src = cv::imread("mnist_input_0.png",cv::IMREAD_GRAYSCALE);
