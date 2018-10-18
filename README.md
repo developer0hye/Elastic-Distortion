@@ -1,10 +1,11 @@
 # Elastic-Distortion
 Implementation of elastic distortion algorithm in C++ (Using OpenCV)
 
-This is naive implementation of Elastic Distortion algorithm for image augmentation.
+This is naive implementation of Elastic Distortion algorithm discussed in [ [1] ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.5032&rep=rep1&type=pdf)  for image augmentation.
 
 ![elastic](https://user-images.githubusercontent.com/35001605/47158915-a4fc8d00-d327-11e8-8dca-4a9099e7c022.gif)
 
+## Code
 ```
 void ElasticDeformations(cv::Mat& src,
                          cv::Mat& dst,
@@ -64,3 +65,7 @@ void ElasticDeformations(cv::Mat& src,
         }
 }
 ```
+
+## References
+>[ [1] Best Practices for Convolutional Neural Networks
+Applied to Visual Document Analysis ](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.5032&rep=rep1&type=pdf)
