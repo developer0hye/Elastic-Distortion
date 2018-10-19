@@ -1,3 +1,12 @@
+/**
+ * \file      main.cpp
+ * \brief     Elastic Distortion algorithm implementation file.
+ * \author    Yonghye Kwon <developer.0hye@gmail.com>
+ * \date      2018
+ * \copyright Free
+ */
+
+
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
