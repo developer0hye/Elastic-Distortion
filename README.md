@@ -29,8 +29,8 @@ void ElasticDeformations(cv::Mat& src,
 
     //The fields dx and dy are then convolved with a Gaussian of standard deviation sigma(in pixels)
     cv::Size kernel_size(sigma*6 + 1, sigma*6 + 1);
-    cv::GaussianBlur(dx, dx, kernel_size, sigma, sigma);
-    cv::GaussianBlur(dy, dy, kernel_size, sigma, sigma);
+    cv::GaussianBlur(dx, dx, kernel_size, sigma);
+    cv::GaussianBlur(dy, dy, kernel_size, sigma);
 
     //If we normalize the displacement field (to a norm of 1,
     //the field is then close to constant, with a random direction
