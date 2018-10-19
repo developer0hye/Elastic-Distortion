@@ -3,7 +3,6 @@
  * \brief     Elastic Distortion algorithm implementation file.
  * \author    Yonghye Kwon <developer.0hye@gmail.com>
  * \date      2018
- * \copyright Free
  */
 
 
